@@ -6,13 +6,24 @@
 #include <string>
 #include <vector>
 
-class function
+class Word
 {
 private:
-    /* data */
+protected:
 public:
-    function(/* args */);
-    ~function();
+    Word();
+    ~Word();
+};
+
+class Dictionary
+{
+private:
+    //
+protected:
+    //
+public:
+    Dictionary();
+    ~Dictionary();
 };
 
 #endif
