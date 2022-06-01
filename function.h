@@ -9,9 +9,15 @@
 class Word
 {
 private:
+    std::string data;
+    std::string def;
+
 protected:
 public:
     Word();
+    Word(std::string da);
+    Word(std::string de);
+    Word(std::string da, std::string de);
     ~Word();
 };
 
